@@ -1,0 +1,59 @@
+# Stack build files
+.stack-work/
+
+# Cabal build files
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~*
+cabal.project.freeze
+*.buildinfo
+*.cabal-sandbox
+*.cabal
+
+# Haskell IDE files
+.idea/
+*.hie
+*.hi
+*.o
+*.chi
+*.chs.h
+*.dyn_hi
+*.dyn_o
+
+# Haskell REPL files
+.ghci
+.ghc.environment.*
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# Other
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+*.hpc
+*.haddock
+*.tar.gz
+*.log
+*.aux
+*.toc
+*.idx
+*.ilg
+*.ind
+*.synctex.gz
+*.pdf
+*.ps
+*.dvi
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+*.synctex(busy)
